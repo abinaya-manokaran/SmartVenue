@@ -1,0 +1,32 @@
+body {
+    font-family: Arial;
+    background: linear-gradient(135deg, #0f2027, #203a43, #2c5364);
+    color: white;
+    text-align: center;
+}
+
+.container {
+    padding: 30px;
+}
+
+h1 {
+    color: #00ffd5;
+}
+
+.card {
+    background: rgba(255, 255, 255, 0.1);
+    padding: 20px;
+    margin: 15px auto;
+    width: 300px;
+    border-radius: 15px;
+    backdrop-filter: blur(10px);
+}
+
+button {
+    padding: 10px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    background: #00ffd5;
+    font-weight: bold;
+}
