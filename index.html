@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>SmartVenue Antigravity</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="container">
+        <h1>🚀 SmartVenue Antigravity System</h1>
+        <p>Zero crowd • Zero wait • Smooth stadium experience</p>
+
+        <!-- USER INPUT (NEW) -->
+        <div class="card">
+            <h2>🎟 Enter Your Gate / Seat</h2>
+            <input id="userInput" placeholder="Example: A / B / C">
+        </div>
+
+        <div class="card">
+            <h2>🧭 Crowd Status</h2>
+            <button onclick="checkCrowd()">Check Route</button>
+            <p id="crowdResult"></p>
+        </div>
+
+        <div class="card">
+            <h2>🍔 Food Queue</h2>
+            <button onclick="checkFood()">Check Queue</button>
+            <p id="foodResult"></p>
+        </div>
+
+        <div class="card">
+            <h2>🚪 Exit Suggestion</h2>
+            <button onclick="exitRoute()">Find Exit</button>
+            <p id="exitResult"></p>
+        </div>
+
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
